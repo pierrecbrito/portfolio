@@ -13,13 +13,23 @@ img {
     transition: 0.5s;
 }
 
+.secao_sobremim_imagem::after {
+    content:url('../img/fundo-imagem.png'); /* with class ModalCarrot ??*/
+    position: absolute; /*or absolute*/
+    z-index: -1; /*a number that's more than the modal box*/
+    left: 30px;
+    top: -115px;
+    transform: rotate(15deg);
+}
+
+
 .secao_sobremim_imagem {
+    position: relative;
     text-align: center;
     padding-top: 20px;
 }
 
 .secao_sobremim_imagem img:hover {
-    border: 1px solid #3EA6FF;
     transform: scale(1.1);
 }
 

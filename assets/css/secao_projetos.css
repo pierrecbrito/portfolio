@@ -1,0 +1,68 @@
+.secao_projetos div {
+    display: flex;
+}
+
+.lista_projetos {
+    width: 30%;
+    padding: 0;
+    list-style: none;
+    border-left: 1px solid #8892b0;
+}
+
+.lista_tecnologias {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tecnologia {
+    padding: 8px;
+    border-radius: 5px;
+    font-family: 'Source Code', sans-serif;
+    line-height: 100%;
+    letter-spacing: -.03em;
+    line-height: 1.3;
+}
+
+.lista_projetos .link_projeto {
+    padding: 10px;
+    color: #8892b0;
+    cursor: pointer;
+}
+
+.ativo {
+    color: #3EA6FF !important;
+}
+
+.projeto_tempo {
+    margin: 5px 0;
+}
+
+.lista_projetos .link_projeto:hover {
+    color: #3EA6FF;
+}
+
+.projeto {
+    position: relative;
+}
+
+.projeto_titulo {
+    font-family: 'Source Code', sans-serif;
+    line-height: 100%;
+    letter-spacing: -.03em;
+    line-height: 1.3;
+    color: #8892b0;
+    margin: 0;
+}
+
+.projeto_titulo span {
+    color: #3EA6FF;
+}
+
+.tarefa::before {
+    content: "▹";
+    position: absolute;
+    left: -18px;
+    color: #3EA6FF;
+}

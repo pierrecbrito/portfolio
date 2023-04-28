@@ -1,0 +1,41 @@
+.secao_apresentacao {
+    min-height: 100VH;
+}
+
+.secao_apresentacao  {
+   
+}
+
+
+.secao_apresentacao_texto {
+    padding-top: 100px;
+    text-align: left;
+}
+
+.foto_pierre {
+    border-radius: 50%;
+    max-width: 200px;
+}
+
+.texto_introdutorio {
+    font-family: 'Source Code', sans-serif;
+    line-height: 100%;
+    letter-spacing: -.03em;
+    line-height: 1.3;
+    width: 60%;
+}
+
+.titulo_bemvindo, .subtitulo {
+    font-size: 5em;
+    color: #3EA6FF;
+    font-family: 'Mark Pro', sans-serif;
+    letter-spacing: -.03em;
+    margin: 0;
+}
+
+.subtitulo {
+    color: #8892b0;
+    font-size: 3em;
+}
+
+/*font-family: 'Mark Pro', sans-serif;*/

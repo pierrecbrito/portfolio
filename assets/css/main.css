@@ -34,3 +34,8 @@ p, li {
     overflow: hidden;
 }
 
+.copyright {
+    margin-top: 9em;
+    font-size: 0.9em;
+    text-align: center;
+}

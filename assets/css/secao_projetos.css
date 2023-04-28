@@ -1,5 +1,6 @@
 .secao_projetos div {
     display: flex;
+    align-items: flex-start;
 }
 
 .lista_projetos {
@@ -64,6 +65,6 @@
 .tarefa::before {
     content: "▹";
     position: absolute;
-    left: -18px;
+    left: 13px;
     color: #3EA6FF;
 }

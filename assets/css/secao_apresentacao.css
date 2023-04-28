@@ -1,5 +1,6 @@
 .secao_apresentacao {
     min-height: 100VH;
+    position: relative;
 }
 
 .secao_apresentacao_texto {

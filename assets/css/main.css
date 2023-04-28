@@ -29,7 +29,7 @@ p, li {
 .boneco {
     position: absolute;
     right: -80px;
-    bottom: 0px;
+    bottom: 60px;
     transform: scale(2);
     overflow: hidden;
 }

@@ -40,3 +40,23 @@ img {
     line-height: 1.3;
 }
 
+@media (max-width:500px)  { 
+    /*Para celulares*/
+
+    .secao_sobremim {
+        flex-direction: column-reverse;
+    }
+
+    .secao_sobremim_texto {
+        text-align: justify;
+        padding: 1em;
+    }
+
+    .secao_sobremim div {
+        width: 100%;
+    }
+
+  
+}
+
+

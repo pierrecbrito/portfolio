@@ -41,10 +41,16 @@ p, li {
     text-align: center;
 }
 
+img {
+    max-width: 250px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
 @media (max-width:500px)  { 
     /*Para celulares*/
     .boneco {
-        right: 70px;
+        right: 62px;
     }
 }
 

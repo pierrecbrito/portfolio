@@ -28,7 +28,7 @@ p, li {
 
 .boneco {
     position: absolute;
-    right: -80px;
+    right: 0px;
     bottom: 60px;
     transform: scale(2);
     overflow: hidden;
@@ -44,9 +44,7 @@ p, li {
 @media (max-width:500px)  { 
     /*Para celulares*/
     .boneco {
-        position: absolute;
-        right: -50px;
-        bottom: 20px;
+        right: 70px;
     }
 }
 

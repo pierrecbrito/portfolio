@@ -50,7 +50,7 @@ img {
 @media (max-width:500px)  { 
     /*Para celulares*/
     .boneco {
-        right: 70px;
+        right: 50px;
     }
 }
 

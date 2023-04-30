@@ -56,7 +56,10 @@ img {
         width: 100%;
     }
 
-  
+    .secao_sobremim_imagem::after {
+        left: 60px;
+    }
+    
 }
 
 

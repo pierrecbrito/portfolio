@@ -55,7 +55,7 @@
     }
 
     .secao_sobremim_imagem::after {
-        left: 10px;
+        display: none;
     }
     
 }

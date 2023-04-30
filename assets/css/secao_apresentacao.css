@@ -8,12 +8,7 @@
     text-align: left;
 }
 
-.foto_pierre {
-    border-radius: 50%;
-    max-width: 200px;
-}
-
-.texto_introdutorio {
+.texto_apoio {
     font-family: 'Source Code', sans-serif;
     line-height: 100%;
     letter-spacing: -.03em;
@@ -21,7 +16,7 @@
     width: 60%;
 }
 
-.titulo_bemvindo, .subtitulo {
+.nome, .frase_efeito {
     font-size: 5em;
     color: #3EA6FF;
     font-family: 'Mark Pro', sans-serif;
@@ -29,9 +24,11 @@
     margin: 0;
 }
 
-.subtitulo {
+.frase_efeito  {
     color: #8892b0;
     font-size: 3em;
 }
+
+
 
 /*font-family: 'Mark Pro', sans-serif;*/

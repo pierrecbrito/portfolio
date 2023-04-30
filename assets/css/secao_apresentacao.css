@@ -29,6 +29,12 @@
     font-size: 3em;
 }
 
+@media (max-width:500px)  { 
+    .secao_apresentacao_texto {
+        padding-top: 30px;
+        text-align: left;
+    }
+}
 
 
 

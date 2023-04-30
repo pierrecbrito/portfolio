@@ -41,6 +41,7 @@ p, li {
 }
 
 @media (max-width:500px)  { 
+    /*Para celulares*/
     .boneco {
         position: absolute;
         right: -50px;

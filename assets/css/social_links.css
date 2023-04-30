@@ -15,3 +15,12 @@
 .link_social img {
     border-radius: 0;
 }
+
+@media (max-width:500px)  { 
+    /*Para celulares*/
+    .lista_social {
+        left: 10px;
+        bottom: -20px;
+    }
+    
+}

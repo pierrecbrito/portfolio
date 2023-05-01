@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
@@ -59,4 +60,10 @@
 
 .folder {
     height: 40px;
+}
+
+@media (max-width:500px)  { 
+    /*Para celulares*/
+
+    
 }

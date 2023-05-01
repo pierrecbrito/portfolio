@@ -4,7 +4,6 @@
     border-radius: 10px;
     transition: 1s;
     border: 2px solid #3EA6FF;
-    cursor: pointer;
 }
 
 .card:hover {

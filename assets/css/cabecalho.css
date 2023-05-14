@@ -1,6 +1,7 @@
 .cabecalho {
     text-align: right;
     position: relative;
+    height: 45px;
 }
 
 .toggle {

@@ -31,8 +31,9 @@
 
 @media (max-width:500px)  { 
     .secao_apresentacao_texto {
-        padding-top: 30px;
+        margin-bottom: 30px;
         text-align: left;
+        margin-top: 50px;
     }
 }
 

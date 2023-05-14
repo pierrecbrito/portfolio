@@ -52,14 +52,14 @@
         </div>
         <div class="secao_sobremim">
             <div class="secao_sobremim_texto">
-                <h3 class="titulo_secao">Sobre mim</h3> 
-                <p>
+                <h3 class="titulo_secao" id="titulo_sobremim">Sobre mim</h3> 
+                <p id="sobremim_p1">
                     Me chamo Pierre Brito, vivo em Natal/RN, e estou desenvolvendo esse site
                     que me servirá como portfólio. Meu interesse em programação em 2016 quando 
                     comecei a estudar na linguagem Java e, desde então, venho me aprofundando 
                     na área.
                 </p>
-                <p>
+                <p id="sobremim_p2">
                     Tive o privilégio de participar de alguns projetos que vão ser listados nesse 
                     site. Meu principal foco, hoje, está voltado para as tecnologias da linguagem
                     JavasScript.
@@ -70,20 +70,20 @@
             </div> 
         </div>
         <div class="secao_projetos">
-            <h3 class="titulo_secao">Projetos em produção</h3> 
+            <h3 class="titulo_secao" id="titulo_projetos">Projetos</h3> 
             <div>
                 <ul class="lista_projetos">
                     <li class="link_projeto ativo">SegLocaliza</li>
                 </ul>
                 <article class="projeto">
-                    <h4 class="projeto_titulo">Desenvolvedor <span>@GrupoECOMP</span></h4>
-                    <p class="projeto_tempo">Jan 2023 - Maio 2023</p>
-                    <p class="projeto_descricao">
-                        Solução para visitantes encontrarem a cada em que vão visitar em condomínios
-                        horizontais fechado de grande porte.
+                    <h4 class="projeto_titulo" id="seglocaliza_cargo">Desenvolvedor <span>@GrupoECOMP</span></h4>
+                    <p class="projeto_tempo" id="seglocaliza_tempo">Jan 2023 - Mai 2023</p>
+                    <p class="projeto_descricao" id="seglocaliza_descricao">
+                        Solução para visitantes encontrarem a unidade em que vão visitar em condomínios
+                        horizontais fechados de grande porte.
                     </p>
-                    <p class="tarefa">Desenvolvimento: produção do front-end de todas as telas da aplicação.</p>
-                    <p class="tarefa">Participação na ideia de formulação da solução, bem como seus requisitos e funcionalidades.</p>
+                    <p class="tarefa" id="seglocaliza_t1">Desenvolvimento: produção do front-end de todas as telas da aplicação.</p>
+                    <p class="tarefa" id="seglocaliza_t2">Participação na ideia de formulação da solução, bem como seus requisitos e funcionalidades.</p>
                     <ul class="lista_tecnologias">
                         <li class="tecnologia">API Maps</li>
                         <li class="tecnologia">HTML5</li>
@@ -97,25 +97,8 @@
 
         </div>
         <div class="secao_projetos_educacionais">
-            <h3 class="titulo_secao">Outros projetos</h3> 
+            <h3 class="titulo_secao" id="titulo_aprendizagem">Projetos de aprendizagem</h3> 
             <div class="cards">
-                <article class="card">
-                    <div class="card_cabecalho">
-                        <img src="./assets/img/folder.svg" alt="Ícone de projeto" class="folder">
-                        <div>
-                            <a href="" target="_blank"></a>
-                            <img src="./assets/img/link.svg" alt="Ícone de link">
-                        </div>
-                    </div>
-                    <h4 class="card_titulo">Temouse</h4>
-                    <p class="card_descricao">
-                        Aplicativo desktop para o ensino da digitação no teclado.
-                    </p>
-                    <ul class="card_tecnologias">
-                        <li class="card_tecnologia">Java</li>
-                        <li class="card_tecnologia">JavaFX</li>
-                    </ul>
-                </article>
                 <article class="card">
                     <div class="card_cabecalho">
                         <img src="./assets/img/folder.svg" alt="Ícone de projeto" class="folder">
@@ -124,7 +107,7 @@
                         </div>
                     </div>
                     <h4 class="card_titulo">Netflix Clone</h4>
-                    <p class="card_descricao">
+                    <p class="card_descricao" id="netflix_desc">
                         Imitando o front-end da Netflix.
                     </p>
                     <ul class="card_tecnologias">
@@ -132,12 +115,11 @@
                     </ul>
                 </article>
             </div> 
-
         </div>
     </main>
 
     <footer>
-        <p class="copyright">&copy; Construido por Pierre Brito em 2023 </p>
+        <p class="copyright">&copy; Pierre Brito  2023 </p>
     </footer>
 
 <script src="./assets/js/elements.js"></script>
